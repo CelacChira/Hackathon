@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\smile.jpg.png">
+    <title>Încălzirea Globală</title>
+    <link rel="stylesheet" href="style.css/style.css">
+
+</head>
+    
+    <style>
+        :root { 
+    --overlay-color: rgba(0, 0, 0, 0.1);
+}
+    </style>
+</head>
+<body>
+  <nav>
+    <ul>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Încălzirea globală</h2>
+            <div class="toggle">
+            </div>
+        </header>
+        <video src="video.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Save</h2>
+            <h3> Our Planet</h3>
+            <h4>Together</h4>
+        </div>
+
+    </section>
+    
+  
+    <div class="menu">
+        <ul>
+            
+            <li><a href="cauze.html"><img src="images/icons.png">Cauze<br><br></a></li>
+            <li><a href="consecinte.html"><img src="images/icons.png">Consecințe<br><br></a></li>
+            <li><a href="solutii.html"><img src="images/icons.png">Soluții<br><br></a></li>
+            <li><a href="plan de afacere.html"><img src="images/icons.png">Plan de afacere<br><br></a></li>
+        </ul>
+    </div>
+
+    
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+
+</body> 
+</html>
